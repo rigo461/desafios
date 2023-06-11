@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Monda&family=Righteous&family=Unbounded:wght@200;300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Monda", sans-serif;
+  font-family: "Righteous", cursive;
+  font-family: "Unbounded", cursive;
+}
+body {
+  background-image: url(/assets/img/estees.jpg);
+  background-size: cover;
+}
+
+.container__card {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 10px;
+  perspective: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card__father {
+  margin: 20px;
+  perspective: 1000px;
+}
+
+.card__father:hover .card {
+  transform: rotateY(180deg);
+}
+
+.card {
+  width: 350px;
+  height: 400px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: all 600ms;
+}
+
+.card__back {
+  transform: rotateY(180deg);
+  background: white;
+}
+.card__front,
+.card__back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  border-radius: 20px;
+}
+.body__card_front {
+  width: 250px;
+  height: 380px;
+  padding: 40px;
+  text-align: center;
+  transform: translateZ(60px);
+  background-image: url(/assets/img/fondo\ pagna.avif);
+  background-size: cover;
+  background-position: center;
+  border-radius: 8%;
+}
+#maracuyaf {
+  background-image: url(/assets/img/maracuya\ 2.jpg);
+}
+#f3-1 {
+  background-image: url(/assets/img/3\ en\ 1\ 2.jpg);
+}
+#guayabaf {
+  background-image: url(/assets/img/guayaba2.jpg);
+}
+.body__card_front p {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.body__card_back {
+  padding: 40px;
+  text-align: center;
+  transform: translateZ(60px);
+}
+.body__card_back p {
+  margin-top: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+.body__card_back ul li {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  line-height: 0.2;
+  list-style: none;
+  text-decoration: none;
+}
+
+.body__card_back input {
+  padding: 10px 40px;
+  margin-top: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  background: #58b0f6;
+  box-shadow: 1px 1px 30px -5px #58b0f6;
+  border-radius: 10px;
+  transition: box-shadow 600ms;
+}
+
+.body__card_back input:hover {
+  box-shadow: 1px 1px 30px 0px #449de6;
+}
+
+/*licuadora */
+
+.blender {
+  position: fixed;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  min-width: 700px;
+  height: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(/assets/img/licuadoraApagada-removebg-preview.png);
+}
+
+.blender.active {
+  background-image: url(/assets/img/licuadoraEncendida-unscreen.gif);
+}
+
+.blender-button {
+  margin: 367px auto 0px;
+  width: 30px;
+  height: 50px;
+}

@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Monda&family=Righteous&family=Unbounded:wght@200;300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Monda", sans-serif;
+}
+:root {
+  --clr-aqua: aquamarine;
+  --clr-black: black;
+  --clr-anti: antiquewhite;
+}
+
+body {
+  background-color: var(--clr-black);
+  color: var(--clr-aqua);
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: var(--clr-anti);
+  color: var(--clr-black);
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.instrucciones {
+  margin-bottom: 2rem;
+}
+
+.marcador {
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: var(--clr-purple);
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.marcador .nombre {
+  position: absolute;
+
+  line-height: 1;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 2px solid;
+  box-shadow: 1px 1px 30px 0px purple;
+}
+
+.marcador .nombre-jugador {
+  right: 85%;
+}
+
+.marcador .nombre-computadora {
+  left: 85%;
+}
+
+.marcador .puntos {
+  font-size: 1.6rem;
+}
+.elegi-tu-arma {
+  margin-bottom: 2rem;
+}
+
+.elegi-tu-arma h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+.armas {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.arma {
+  border-radius: 30rem;
+  box-shadow: 1px 1px 30px 0px purple;
+}
+.arma img {
+  width: 30%;
+  height: 13rem;
+}
+
+.mensaje {
+  margin-bottom: 2rem;
+  line-height: 1.8;
+}
+
+.mensaje .eleccion {
+  border-radius: 0.25rem;
+  padding-inline: 0.25rem;
+}
+
+.btn {
+  border: 0;
+  line-height: 1;
+  background-color: var(--clr-black);
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 30rem;
+  box-shadow: 1px 1px 30px 0px var(--clr-aqua);
+}
+
+.btn img {
+  width: auto;
+  height: 13rem;
+}

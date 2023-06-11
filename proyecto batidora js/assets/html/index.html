@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <title>Refrescate</title>
+  </head>
+  <body>
+  <main>
+      <div class="container__card">
+        <div class="card__father">
+          <div class="card">
+            <div class="card__front" >
+              <div class="body__card_front" id="maracuyaf">
+                <h1>Maracuya</h1>
+                <p>Esta fruta es rica en antioxidantes, vitaminas, sales minerales y fibras que contribuyen al correcto funcionamiento del intestino y a regular el nivel de colesterol. Además, tiene un alto contenido en vitamina A y betacarotenos, que protegen la vista del humano y son buenos para la piel.</p>
+              </div>
+            </div>
+            <div class="card__back">
+              <div class="body__card_back">
+                <h3>Receta</h3>
+                <ul>
+                  <li>4 o 5 maracuyás</li>
+                  <li>1 litro de agua.</li>
+                  <li>Azúcar al gusto.</li>
+                  <li>Hielo.</li>
+                </ul>
+                <p>Retiramos la pulpa partiendo por la mitad la fruta. Luego unificamos los ingredientes y a Licuar !!</p>
+                <input type="button" value="A licuar!" onclick="controlarLicuadora()">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card__father">
+          <div class="card">
+            <div class="card__front" >
+              
+              <div class="body__card_front" id="f3-1">
+                <h1>3 en 1</h1>
+                <p>El jugo de remolacha, naranja y zanahoria, además de ser delicioso, es perfecto para las personas que tienen problemas de anemia, ya que está lleno de nutrientes y vitaminas. Aparte, este jugo de frutas y verdura nos ayuda a desintoxicar el organismo</p>
+              </div>
+            </div>
+            <div class="card__back">
+              <div class="body__card_back">
+                <h3>Receta</h3>
+                <ul>
+                  <li>1 Remolacha</li>
+                  <li>5 naranjas.</li>
+                  <li>1 zanahoria </li>
+                </ul>
+                <p>Ya con las remolachas y las zanahorias previamente hervidas y cortadas en trozos medianos y con las naranjas peladas y cortadas, procederemos a unificar los ingredientes en la licuadora.</p>
+                <input type="button" value="A licuar!" onclick="controlarLicuadora()">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card__father">
+          <div class="card">
+            <div class="card__front" >
+
+              <div class="body__card_front" id="guayabaf">
+                <h1>Guayaba</h1>
+                <p>El jugo de guayaba aporta altas dosis de vitamina A, E, B y potasio. Estos componentes de la guayaba tienen funciones antioxidantes que protegen la piel y logran que se mantenga sana, limpia y tonificada.</p>
+              </div>
+            </div>
+            <div class="card__back">
+              <div class="body__card_back">
+                <h3>Receta</h3>
+                <ul>
+                  <li>4 guayabas</li>
+                  <li>1/2 Taza de azucar</li>
+                  <li>agua</li>
+                </ul>
+                <p>Lavar y pelar bien las guayabas, luego las cortamos en cubitos para posteriormente unificarlas junto a los demás ingredientes en la licuadora.</p>
+                <input type="button" value="A licuar!" onclick="controlarLicuadora()">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+     <div class="container">
+    <div id="blender" class="blender">
+      <div id="blender-button" class="blender-button" onclick="controlarLicuadora()"></div>
+    </div>
+  </div>
+
+  <audio id="blender-sound" src="/assets/sounds/licuadora.mp3" type="audio/mpeg" loop></audio>
+  <audio id="blender-button-sound" src="/assets/sounds/botonLicuadora.mp3" type="audio/mpeg"></audio>
+<script src="/assets/js/scripts.js"></script>
+    <script
+      src="https://kit.fontawesome.com/4973a8f673.js"
+      crossorigin="anonymous"
+    ></script>  
+</main>
+
+
+    
+  </body>
+</html>
