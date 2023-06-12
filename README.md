@@ -15,7 +15,7 @@ A través de la combinación de HTML, CSS y JavaScript junto con pruebas riguros
 Así que prepárate para descubrir cómo enfrento cada desafío con pasión, perseverancia y una mentalidad orientada a soluciones.
  ¡Estoy listo para asumir cualquier desafío que se presente y seguir creciendo como profesional!
 
-JUEGO DE PIEDRA PAPEL O TIJERA 
+JUEGO DE PIEDRA PAPEL O TIJERA +Testing  https://rigo461.github.io/piedra-papel-tijera/
 
 ![image](https://github.com/rigo461/desafios/assets/113054899/ecd94b32-ffb2-4331-9160-9b4f93ed1c7a)
 ///////////////////////////////////////////////////////////////////////////////////////
@@ -26,7 +26,7 @@ CALCULADORA https://rigo461.github.io/Calculadora/
 
 ////////////////////////////////////////////////////////////////////////////////////
 
-CARRITO DE COMPRAS FUNCIONAL 
+CARRITO DE COMPRAS FUNCIONAL + Testing  https://rigo461.github.io/carrito-de-compras-testing/
 
 ![image](https://github.com/rigo461/desafios/assets/113054899/6c597568-3c57-43c7-929b-af72d4715bbd)
 
