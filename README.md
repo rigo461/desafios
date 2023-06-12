@@ -31,7 +31,7 @@ CARRITO DE COMPRAS FUNCIONAL
 
 /////////////////////////////////////////////////////////////////////////////////////////
 
-GENERADOR DE CODIGO QR
+GENERADOR DE CODIGO QR https://rigo461.github.io/Generador-QR/
 
 ![image](https://github.com/rigo461/desafios/assets/113054899/4d02b671-a64d-4a92-9377-71b263d0c751)
 
