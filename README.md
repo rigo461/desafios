@@ -1,6 +1,7 @@
 # DESAFIOS 
 
-¡Bienvenido a la sección de Desafíos!
+¡Bienvenido a la sección de Desafíos! 
+¡Te dejo los links de los poryectos funcionales al lado de su titulo! 
 
 Aquí es donde me gusta poner a prueba mis habilidades y enfrentar nuevos retos. Me emociona la oportunidad de superar obstáculos y encontrar soluciones creativas a problemas complejos. Cada desafío es una oportunidad de aprendizaje y crecimiento, y me encanta sumergirme en ellos con entusiasmo y determinación.
 
@@ -14,14 +15,14 @@ A través de la combinación de HTML, CSS y JavaScript junto con pruebas riguros
 Así que prepárate para descubrir cómo enfrento cada desafío con pasión, perseverancia y una mentalidad orientada a soluciones.
  ¡Estoy listo para asumir cualquier desafío que se presente y seguir creciendo como profesional!
 
-JUEGO DE PIEDRA PAPEL O TIJERA
+JUEGO DE PIEDRA PAPEL O TIJERA 
 
 ![image](https://github.com/rigo461/desafios/assets/113054899/ecd94b32-ffb2-4331-9160-9b4f93ed1c7a)
 ///////////////////////////////////////////////////////////////////////////////////////
 
-CALCULADORA
+CALCULADORA https://rigo461.github.io/Calculadora/
 
-![image](https://github.com/rigo461/desafios/assets/113054899/9578a733-24d8-466e-a562-30842ff108d3)
+![image](https://github.com/rigo461/desafios/assets/113054899/9578a733-24d8-466e-a562-30842ff108d3) 
 
 ////////////////////////////////////////////////////////////////////////////////////
 
@@ -38,7 +39,7 @@ GENERADOR DE CODIGO QR https://rigo461.github.io/Generador-QR/
 
 //////////////////////////////////////
 
-LICUADORA FUNCIONAL 
+LICUADORA FUNCIONAL  https://rigo461.github.io/licuadora/
 
 
 ![image](https://github.com/rigo461/desafios/assets/113054899/1b303905-9732-4881-8439-9dd74d7c3c81)
